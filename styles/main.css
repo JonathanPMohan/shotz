@@ -1,6 +1,9 @@
 body {
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: right;
     font-family: 'Quicksand', sans-serif;
+    background-image: url("/images/background.jpg");
+    background-attachment: fixed;
+    padding: 5%;
 }
