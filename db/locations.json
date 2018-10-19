@@ -1,40 +1,40 @@
 {
     "locations":[
         {
-            "Image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
-            "Name": "New Zealand",
-            "Address": "100 NZ Drive, Nashville, TN", 
-            "Time": "2:00 PM"
+            "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
+            "name": "New Zealand",
+            "address": "100 NZ Drive, Nashville, TN", 
+            "shootTime": "Morning"
         },
         {
-            "Image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
-            "Name": "Bar Scene",
-            "Address": "Nashville, TN @ Spring Water", 
-            "Time": "1:30 AM"
+            "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
+            "name": "Bar Scene",
+            "address": "Nashville, TN @ Spring Water", 
+            "shootTime": "1:30 AM"
         },
         {
-            "Image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
-            "Name": "Blind Date",
-            "Address": "445 7th Ave S, Nashville, TN", 
-            "Time": "7:30 PM"
+            "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
+            "name": "Blind Date",
+            "address": "445 7th Ave S, Nashville, TN", 
+            "shootTime": "7:30 PM"
         },
         {
-            "Image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
-            "Name": "Breakup Scene",
-            "Address": "Mall of Green Hills", 
-            "Time": "8:30 AM"
+            "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
+            "name": "Breakup Scene",
+            "address": "Mall of Green Hills", 
+            "shootTime": "8:30 AM"
         },
         {
-            "Image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
-            "Name": "Bowling Alley Robbery",
-            "Address": "10 Pins Alley, Dickson, TN", 
-            "Time": "4:55 PM"
+            "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
+            "name": "Bowling Alley Robbery",
+            "address": "10 Pins Alley, Dickson, TN", 
+            "shootTime": "4:55 PM"
         },
         {
-            "Image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
-            "Name": "Night Cap",
-            "Address": "The Loft, Top Floor", 
-            "Time": "1:45 AM"
+            "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
+            "name": "Night Cap",
+            "address": "The Loft, Top Floor", 
+            "shootTime": "1:45 AM"
         }
     ]
 }
