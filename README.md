@@ -1,7 +1,7 @@
 ## SHOTZ
 
 
-![main screenshot](./images/shotz_markup.jpg)
+![main screenshot](./images/Shotz_Markkup.jpg)
 
 ## Technologies Used
 * Bootstrap 4
