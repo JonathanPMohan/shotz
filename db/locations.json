@@ -10,31 +10,31 @@
             "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
             "name": "Bar Scene",
             "address": "Nashville, TN @ Spring Water", 
-            "shootTime": "1:30 AM"
+            "shootTime": "After Dark"
         },
         {
             "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
             "name": "Blind Date",
             "address": "445 7th Ave S, Nashville, TN", 
-            "shootTime": "7:30 PM"
+            "shootTime": "Evening"
         },
         {
             "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
             "name": "Breakup Scene",
             "address": "Mall of Green Hills", 
-            "shootTime": "8:30 AM"
+            "shootTime": "After Dark"
         },
         {
             "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
             "name": "Bowling Alley Robbery",
             "address": "10 Pins Alley, Dickson, TN", 
-            "shootTime": "4:55 PM"
+            "shootTime": "Evening"
         },
         {
             "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
             "name": "Night Cap",
             "address": "The Loft, Top Floor", 
-            "shootTime": "1:45 AM"
+            "shootTime": "After Dark"
         }
     ]
 }
