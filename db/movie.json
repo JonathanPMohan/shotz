@@ -1,10 +1,11 @@
 {
     "movie":[
         {
-            "name": "The Returning 2: The Return of The Guy",
-            "genre": "Horror Anime RomCom",
-            "releaseDate": "October 28, 2022", 
-            "description": "No one thought he would ever return to the town where he once returned many years ago. But now he's returned and this time it probably won't be his last return trip."
+            "name": "The Returning 2:",
+            "subtitle": "The Return of The Guy",
+            "genre": "Genre: Horror RomCom",
+            "releaseDate": "Release Date: October 28, 2022", 
+            "description": "Plot: No one thought he would ever return to the town where he once returned many years ago. But now he's returned and this time it probably won't be his last return trip."
         }  
     ]
 }

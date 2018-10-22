@@ -1,31 +1,51 @@
 const searchBar = () => {
     $("#search").keyup(() => {
         $(".card-content").each(function() {
-            let val = $("#search").val().toLowerCase();
-              if($(this).text().toLowerCase().includes(val) == true) {
-              $(this.closest('.loc')).show();
+            let value = $("#search").value().toLowerCase();
+              if($(this).text().toLowerCase().includes(value) == true) {
+              $(this.closest('.location')).show();
               } else {
-                $(this.closest('.loc')).hide();
+                $(this.closest('.location')).hide();
               }
           });
       });
     }
     
     const buttonElem = () => {
-    $(".time").on('click', (e) => {
+    $(".shoottime").on('click', (e) => {
         const element= $(event.target).text().toLowerCase();
-        $(".shootTime").each(function() {
+        $(".shoottime").each(function() {
               if($(this).text().toLowerCase().includes(element) == true) {
-              $(this.closest('.loc')).show();
+              $(this.closest('.location')).show();
               } else {
-                $(this.closest('.loc')).hide();
+                $(this.closest('.location')).hide();
               }
           });
         })
     }
     
     $("#all").on('click', (e) => {
-        $('.loc').show();
-    })
+        $('.location').show();
+    });
+
+    $("#morning").on('click', (e) => {
+        $(".location").show();
+        $(".location").not(".Morning").hide()
+    });
+    
+    $("#afternoon").on('click', (e) => {
+        $(".location").show();
+        $(".location").not(".Afternoon").hide()
+    });
+    
+    $("#evening").on('click', (e) => {
+        $(".location").show();
+        $(".location").not(".Evening").hide()
+    });
+    
+    $("#after-dark").on('click', (e) => {
+        $(".location").show();
+        $(".location").not(".Night").hide()
+    });
     
     export{searchBar, buttonElem};
