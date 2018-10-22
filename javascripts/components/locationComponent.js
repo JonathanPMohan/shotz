@@ -1,8 +1,8 @@
 const locationBuilder = (locationArray) => {
     let domString = '';
     locationArray.forEach((location) => {   
-        domString += `<div class="card p-2 m-3" style="width: 18rem;">
-                        <img class="card-img-top" src="${location.image}" alt="Card image cap">
+        domString += `<div class="card location p-2 m-3" style="width: 21.5rem;">
+                        <img class="card-img-top" src="${location.image}" alt="Card image cap" width="325px" height="250px">
                         <div class="card-body">
                             <h5 class="card-title">${location.name}</h5>
                             <p class="card-text">Address: ${location.address}</p>
