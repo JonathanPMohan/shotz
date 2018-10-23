@@ -1,21 +1,14 @@
 const searchBar = () => {
-    $("#search").keyup(() => {
-        $(".card-content").each(function() {
-            let value = $("#search").value().toLowerCase();
-              if($(this).text().toLowerCase().includes(value) == true) {
-              $(this.closest('.location')).show();
-              } else {
-                $(this.closest('.location')).hide();
-              }
-          });
-      });
-    }
+    $("#searchBar").keypress(function() {
+            let value = $("#searchBar").val();
+            $('.locations').not(`:contains(${value})`).hide();
+    })
+};   
     
     const buttonElem = () => {
     $(".shoottime").on('click', (e) => {
-        const element= $(event.target).text().toLowerCase();
         $(".shoottime").each(function() {
-              if($(this).text().toLowerCase().includes(element) == true) {
+              if($(this).text().toLowerCase().includes(e) == true) {
               $(this.closest('.location')).show();
               } else {
                 $(this.closest('.location')).hide();
@@ -29,23 +22,30 @@ const searchBar = () => {
     });
 
     $("#morning").on('click', (e) => {
+        console.log("Hey!")
         $(".location").show();
-        $(".location").not(".Morning").hide()
+        // $(".location").not(".morning").hide()
     });
     
     $("#afternoon").on('click', (e) => {
+        console.log("Hey Dude!")
         $(".location").show();
-        $(".location").not(".Afternoon").hide()
+        // $(".location").not(".afternoon").hide()
     });
     
     $("#evening").on('click', (e) => {
+        console.log("Hey Man!")
         $(".location").show();
-        $(".location").not(".Evening").hide()
+        // $(".location").not(".evening").hide()
     });
     
-    $("#after-dark").on('click', (e) => {
+    $("#afterDark").on('click', (e) => {
+        console.log("Wow!")
         $(".location").show();
-        $(".location").not(".Night").hide()
+        // $(".location").not(".after-dark").hide()
     });
+
+    
     
     export{searchBar, buttonElem};
+
