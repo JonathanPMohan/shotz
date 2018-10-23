@@ -6,7 +6,7 @@ const searchBar = () => {
 };   
     
     const buttonElem = () => {
-    $(".shoottime").on('click', (e) => {
+    $(".btn").on('click', (e) => {
         $(".shoottime").each(function() {
               if($(this).text().toLowerCase().includes(e) == true) {
               $(this.closest('.location')).show();
@@ -17,38 +17,47 @@ const searchBar = () => {
         })
     }
     
+    
     $("#all").click(() => {
         $(".location").show();
         console.log("Show Me!")
     });
 
-    $("#morning").on('click', (e) => {
+    $('#morningButton').on('click', (e) => {
         console.log("Good Morning!")
-        $(".location").show();
-        // $(".location").not(".Morning").hide()
-    });
+        $('.Afternoon').hide();
+        $('.Dark').hide();
+        $('.Evening').hide();
+      }); 
+
+    // $("#morningButton").on('click', (e) => {
+    //     console.log("Good Morning!")
+    //     $(".location").show();
+    //     // $(".location").not(".Morning").hide()
+    // });
 
   
     
-    $("#afternoon").on('click', (e) => {
+    $("#afternoonButton").on('click', (e) => {
         console.log("Let's Do Lunch!")
         $(".location").show();
-        // $(".location").not(".afternoon").hide()
+    //     // $(".location").not(".afternoon").hide()
     });
     
-    $("#evening").on('click', (e) => {
+    $("#eveningButton").on('click', (e) => {
         console.log("Getting Late")
         $(".location").show();
-        // $(".location").not(".evening").hide()
+    //     // $(".location").not(".evening").hide()
     });
     
-    $("#afterDark").on('click', (e) => {
+    $("#afterdarkButton").on('click', (e) => {
         console.log("Time To Head Home!")
         $(".location").show();
-        // $(".location").not(".after-dark").hide()
+    //     // $(".location").not(".after-dark").hide()
     });
 
-    
     
     export{searchBar, buttonElem};
 
+
+    
