@@ -1,19 +1,5 @@
 // Search Bar Function //
 
-// const searchBar = () => {
-//     $("#searchBar").keyup(function () {
-//         let value = $("#searchBar").val();
-//         console.log(value)
-//         $('.location').each(function () {
-//             if ($(this).not(`:contains(${value})`)) {
-//                 $(this).closest(".location").hide();
-
-//             } else { $(this).closest(".location").show(); }
-
-//         });
-//     })
-// }
-
 const searchBar = () => {
 $("#searchBar").keyup(() => {
     $(".location").each(function () {
