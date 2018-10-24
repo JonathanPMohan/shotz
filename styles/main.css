@@ -14,7 +14,7 @@ body {
     left: 85px;
     top: 38px;
     z-index: 1;
-    border-radius: 25%;
+
     
 }
 
@@ -40,15 +40,30 @@ body {
 
 #locations {
     color: black;
-    margin-top: 110px;
+    margin-top: 125px;
     text-align: center;
+    border-radius: 6%;
+
 }
 
+#locations {
+    color: black;
+    margin-top: 125px;
+    text-align: center;
+    
+}
+
+#locationsWrapper {
+    border-radius: 6%;
+    border-style: solid;
+    border-width: 4px;
+    box-shadow: 5px 5px;
+    color: white;
+    margin-top: 125px;
+}
 #buttons {
     margin-left: 55%;
     margin-top: 10%;
-    
-
 }
 
 #searchBar {

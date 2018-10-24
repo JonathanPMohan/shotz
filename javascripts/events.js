@@ -1,60 +1,68 @@
+// Search Bar Function //
+
 const searchBar = () => {
-    $("#searchBar").keypress(function() {
-            let value = $("#searchBar").val();
-            $('.locations').not(`:contains(${value})`).hide();
-    });
-};   
+    $("#searchBar").keyup(function () {
+        let value = $("#searchBar").val();
+        $('.location').each(function () {
+            if ($(this).not(`:contains(${value})`)) {
+                $(this).closest(".location").hide();
 
+            } else { $(this).closest(".location").show(); }
 
+        });
+    })
+}
 
+// Button Elements Event //
 
-    
-    const buttonElem = () => {
+const buttonElem = () => {
     $(".body").on('click', (e) => {
-        $(".btn").each(function() {
-              if($(this).text().toLowerCase().includes(e) == true) {
-              $(this.closest('.location')).show();
-              } else {
+        $(".btn").each(function () {
+            if ($(this).text().toLowerCase().includes(e) == true) {
+                $(this.closest('.location')).show();
+            } else {
                 $(this.closest('.location')).hide();
-              }
-          });
-        })
-    }
-    
-    $("#all").click(() => {
-        $(".location").show();
-        console.log("Show Me!")
-    });
+            }
+        });
+    })
+}
 
-    $("#morning").on('click', (e) => {
-        console.log("Good Morning!")
-        $(".location").show();
-        // $(".location").not(".Morning").hide()
-    });
+// All 5 Buttons Events | Show & Hide //
 
-  
-    
-    $("#afternoon").on('click', (e) => {
-        console.log("Let's Do Lunch!")
-        $(".location").show();
-        // $(".location").not(".afternoon").hide()
-    });
-    
-    $("#evening").on('click', (e) => {
-        console.log("Getting Late")
-        $(".location").show();
-        // $(".location").not(".evening").hide()
-    });
-    
-    $("#dark").on('click', (e) => {
-        console.log("Time To Head Home!")
-        $(".location").show();
-        // $(".location").not(".after-dark").hide()
-    });
+$("#all").click(() => {
+    $(".location").show();
+});
 
-    
-    
-    export{searchBar, buttonElem};
+$("#morning").on('click', (e) => {
+    $(".location").show();
+    $(".dark").hide();
+    $(".afternoon").hide();
+    $(".evening").hide();
+
+});
+
+$("#afternoon").on('click', (e) => {
+    $(".location").show();
+    $(".dark").hide();
+    $(".morning").hide();
+    $(".evening").hide();
+});
+
+$("#evening").on('click', (e) => {
+    $(".location").show();
+    $(".dark").hide();
+    $(".morning").hide();
+    $(".afternoon").hide();
+});
+
+$("#dark").on('click', (e) => {
+    $(".location").show();
+    $(".afternoon").hide();
+    $(".morning").hide();
+    $(".evening").hide();
+});
 
 
-    
+export { searchBar, buttonElem };
+
+
