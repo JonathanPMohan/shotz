@@ -1,16 +1,16 @@
 // Search Bar Function //
 
 const searchBar = () => {
-$("#searchBar").keyup(() => {
-    $(".location").each(function () {
-        let val = $("#searchBar").val().toLowerCase();
-          if($(this).text().toLowerCase().includes(val) == true) {
-          $(this.closest('.location')).show();
-          } else {
-            $(this.closest('.location')).hide();
-          }
-      });
-  });
+    $("#searchBar").keyup(() => {
+        $(".location").each(function () {
+            let val = $("#searchBar").val().toLowerCase();
+            if ($(this).text().toLowerCase().includes(val) == true) {
+                $(this.closest('.location')).show();
+            } else {
+                $(this.closest('.location')).hide();
+            }
+        });
+    });
 }
 
 

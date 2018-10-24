@@ -1,39 +1,39 @@
 {
-    "locations":[
+    "locations": [
         {
-            "image":"https://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/walk-the-kepler-track.jpg?focalpointx=55&focalpointy=65&height=427&outputformat=jpg&quality=85&source=3668693&transformationsystem=focalpointcrop&width=640&securitytoken=6D9100121691BF689A58A29118B38D13",
+            "image": "https://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/walk-the-kepler-track.jpg?focalpointx=55&focalpointy=65&height=427&outputformat=jpg&quality=85&source=3668693&transformationsystem=focalpointcrop&width=640&securitytoken=6D9100121691BF689A58A29118B38D13",
             "name": "New Zealand",
-            "address": "100 NZ Drive, Nashville, TN", 
+            "address": "100 NZ Drive, Nashville, TN",
             "shootTime": "morning"
         },
         {
-            "image":"https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/94/6f/3c/saturday-night-bar-scene.jpg",
             "name": "Bar Scene",
-            "address": "Nashville, TN @ Spring Water", 
+            "address": "Nashville, TN @ Spring Water",
             "shootTime": "dark"
         },
         {
-            "image":"https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/630x315/format/jpg/quality/85/http%3A%2F%2Fi.huffpost.com%2Fgen%2F2013068%2Fimages%2Fn-BLIND-DATING-628x314.jpg",
+            "image": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/630x315/format/jpg/quality/85/http%3A%2F%2Fi.huffpost.com%2Fgen%2F2013068%2Fimages%2Fn-BLIND-DATING-628x314.jpg",
             "name": "Blind Date",
-            "address": "445 7th Ave S, Nashville, TN", 
+            "address": "445 7th Ave S, Nashville, TN",
             "shootTime": "evening"
         },
         {
-            "image":"https://g.cz/sites/default/files/photoarticles/break-up-couple.jpg",
+            "image": "https://g.cz/sites/default/files/photoarticles/break-up-couple.jpg",
             "name": "Breakup Scene",
-            "address": "Mall of Green Hills", 
+            "address": "Mall of Green Hills",
             "shootTime": "afternoon"
         },
         {
-            "image":"https://1.bp.blogspot.com/-8lzleA2cXso/UFFJzSHdJRI/AAAAAAAAWts/PUIMtLVOHZ4/s1600/Bowling+2.jpg",
+            "image": "https://1.bp.blogspot.com/-8lzleA2cXso/UFFJzSHdJRI/AAAAAAAAWts/PUIMtLVOHZ4/s1600/Bowling+2.jpg",
             "name": "Bowling Alley Robbery",
-            "address": "10 Pins Alley, Dickson, TN", 
+            "address": "10 Pins Alley, Dickson, TN",
             "shootTime": "evening"
         },
         {
-            "image":"https://s3.us-east-2.amazonaws.com/tales-prod-mediabucket-1w7ck12fqo2qd/assets/images/2017/01/8A6nebrHVjJs_660x0_mtdhGWCw.jpg",
+            "image": "https://s3.us-east-2.amazonaws.com/tales-prod-mediabucket-1w7ck12fqo2qd/assets/images/2017/01/8A6nebrHVjJs_660x0_mtdhGWCw.jpg",
             "name": "Night Cap",
-            "address": "The Loft, Top Floor", 
+            "address": "The Loft, Top Floor",
             "shootTime": "dark"
         }
     ]
