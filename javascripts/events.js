@@ -1,17 +1,32 @@
 // Search Bar Function //
 
+// const searchBar = () => {
+//     $("#searchBar").keyup(function () {
+//         let value = $("#searchBar").val();
+//         console.log(value)
+//         $('.location').each(function () {
+//             if ($(this).not(`:contains(${value})`)) {
+//                 $(this).closest(".location").hide();
+
+//             } else { $(this).closest(".location").show(); }
+
+//         });
+//     })
+// }
+
 const searchBar = () => {
-    $("#searchBar").keyup(function () {
-        let value = $("#searchBar").val();
-        $('.location').each(function () {
-            if ($(this).not(`:contains(${value})`)) {
-                $(this).closest(".location").hide();
-
-            } else { $(this).closest(".location").show(); }
-
-        });
-    })
+$("#searchBar").keyup(() => {
+    $(".location").each(function () {
+        let val = $("#searchBar").val().toLowerCase();
+          if($(this).text().toLowerCase().includes(val) == true) {
+          $(this.closest('.location')).show();
+          } else {
+            $(this.closest('.location')).hide();
+          }
+      });
+  });
 }
+
 
 // Button Elements Event //
 
