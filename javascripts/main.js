@@ -8,4 +8,4 @@ const initializeApp = () => {
     searchBar();
     buttonElem();
 }
-    initializeApp();
+initializeApp();

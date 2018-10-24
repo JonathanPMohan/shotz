@@ -1,6 +1,6 @@
 const filmBuilder = (movieArray) => {
     let domString = '';
-    movieArray.forEach((movie) => {   
+    movieArray.forEach((movie) => {
         domString += `<div class="card bg-dark mb-4" style="max-width: 35rem;">
                         <div class="card-header">${movie.name}</div>
                         <div class="sub-header">${movie.subtitle}</div>
@@ -10,8 +10,8 @@ const filmBuilder = (movieArray) => {
                             <p class="card-title">${movie.description}</p>
                             </div>
                     </div>`;
-                });
+    });
     $('#movie').append(domString);
 }
 
-export {filmBuilder};
+export { filmBuilder };

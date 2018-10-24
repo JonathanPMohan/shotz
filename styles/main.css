@@ -77,8 +77,9 @@ body {
 
 .card-img-top {
     border-radius: 15px;
-    border: 2px solid rgb(126, 110, 110);
-    padding: 7px;
+    /* border: 2px solid rgb(85, 77, 77); */
+    /* padding: 7px; */ 
+    box-shadow: 5px 5px;
 
   }
   
