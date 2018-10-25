@@ -14,12 +14,14 @@
 <body>
     <div id="header">
         <img class="logo" src="./images/shots.png" alt="logo">
+        <div id="searchBarWrapper">
+        <input id="searchBar" class="form-control mr-sm-2 searchBar" type="search" placeholder="Search">
+        </div>
     </div>
 
-    <div id="movie"></div>
-    <div class="row m-4 col-md-12">
+    <div class="row m-4 col-md-12 buttons">
         <div id="buttons" class="d-flex .flex-column flex-wrap">
-            <input id="searchBar" class="form-control mr-sm-2 searchBar" type="search" placeholder="Search">
+            <!-- <input id="searchBar" class="form-control mr-sm-2 searchBar" type="search" placeholder="Search"> -->
             <button type="button" class="btn btn-outline-light btn-md time" id="all">Show All</button>
             <button type="button" class="btn btn-outline-light btn-md time" id="morning">Morning</button>
             <button type="button" class="btn btn-outline-light btn-md time" id="afternoon">Afternoon</button>
@@ -27,8 +29,9 @@
             <button type="button" class="btn btn-outline-light btn-md time" id="dark">After Dark</button>
         </div>
     </div>
-
-
+    <div id="moviesWrapper">
+    <div id="movie" class="d-flex justify-content-center .flex-column flex-wrap"></div>
+    </div>
     <div id="locationsWrapper">
         <div id="locations" class="d-flex justify-content-center .flex-column flex-wrap"></div>
     </div>
