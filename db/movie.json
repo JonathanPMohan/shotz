@@ -1,11 +1,28 @@
 {
     "movie": [
-        {
+        {   "id": "movie1",
             "name": "The Returning 2:",
             "subtitle": "The Return of The Guy",
             "genre": "Genre: Horror RomCom",
             "releaseDate": "Release Date: October 28, 2022",
-            "description": "Plot: No one thought he would ever return to the town where he once returned many years ago. But now he's returned and this time it probably won't be his last return trip."
+            "description": "Plot: No one thought he would ever return to the town where he once returned many years ago. But now he's returned and this time it probably won't be his last return trip.",
+            "locations": ["location1", "location2", "location4"]
+        },
+        {   "id": "movie2",
+            "name": "Daytona 85'",
+            "subtitle": "Who Says Summer Has To End?",
+            "genre": "Genre: Tragic Comedy",
+            "releaseDate": "Release Date: November 14, 2019",
+            "description": "Plot: In the Summer of 1985, Jesse Simpkins fell in love with a girl by the name of Mitzy Miller. But what he had no idea is that Mitzy was a time traveling robot sent from the future to find the right human to help repopulate our society.", 
+            "locations": ["location3", "location6", "location7"]
+        },
+        {   "id": "movie3",
+            "name": "Instagram Movie",
+            "subtitle": "Some Movies Just Want To Be Liked",
+            "genre": "Genre: Who Cares, Right?",
+            "releaseDate": "Release Date: May, 33th 2054",
+            "description": "Plot: Instagram done went up and done it again. This time the've pissed off Facebook, Snapchat and the big, bad Twitter. Buckle up boys, the social media storm is a coming and it's about to be a bumpy ride.",
+            "locations": ["location2", "location6", "location4"]
         }
     ]
 }
