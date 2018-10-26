@@ -1,7 +1,8 @@
 ## SHOTZ
+* Shotz is a application to where you can track you're upcoming movies and shoot locations. You have a search bar and corresponding buttons to help you navigate your way. 
 
 
-![main screenshot](./images/Shotz_Markkup.jpg)
+![main screenshot](./images/screenshot.png)
 
 ## Technologies Used
 * Bootstrap 4
