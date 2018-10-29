@@ -1,11 +1,13 @@
 body {
     background-color: black;
     color: white;
-    text-align: right;
+    text-align: center;
     font-family: 'Quicksand', sans-serif;
     background-image: url("/images/background.jpg");
     background-attachment: fixed;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
 }
 
 #movie {
@@ -13,6 +15,12 @@ body {
     border: 2px solid white;
     border-radius: 10px;
     
+}
+
+.movie {
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
 }
 
 #header {
@@ -29,19 +37,20 @@ body {
     font-size: 14pt;
     background-color: darkgray;
     color: black;
+    padding: 2px;
 }
 
 #locations {
     color: white;
-    margin-top: 100px;
+    margin-top: 15px;
     text-align: center;
     
 }
 
 #buttons {
     text-align: center;
-     margin-left: 25%;
-     margin-bottom: 5%;
+     margin-left: 29%;
+     
     
 }
 
@@ -52,9 +61,10 @@ body {
 }
 
 #searchBar {
-    margin-left: 24%;
+    margin-left: 29.5%;
+    margin-top: 1%;
     margin-bottom: 2%;
-    width: 50%;
+    width: 40%;
     
 }
 .btn {
@@ -69,5 +79,18 @@ body {
 
   }
 
+  .logo {
+      margin-right: 4%;
+  }
+
+  #locationsWrapper, #moviesWrapper {
+      text-align: center;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 15px;
+  }
  
+  hr {
+      color: white;
+  }
   
