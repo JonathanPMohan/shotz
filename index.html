@@ -12,7 +12,14 @@
 </head>
 
 <body>
-    <div id="header">
+    <div id="movieClick"></div>
+    <div class="backButton" style="display:none">
+            <button type="button" class="btn btn-primary m-2" id="back-button">Back</button>
+        </div>
+    
+    <div id="domWrapper">
+        <img class="logo" src="./images/shots.png" alt="logo">
+    <!-- <div id="header">
         <img class="logo" src="./images/shots.png" alt="logo">
         <div id="searchBarWrapper">
         <input id="searchBar" class="form-control mr-sm-2 searchBar" type="search" placeholder="Search">
@@ -21,20 +28,44 @@
 
     <div class="row m-4 col-md-12 buttons">
         <div id="buttons" class="d-flex .flex-column flex-wrap">
-            <!-- <input id="searchBar" class="form-control mr-sm-2 searchBar" type="search" placeholder="Search"> -->
-            <button type="button" class="btn btn-outline-light btn-md time" id="all">Show All</button>
-            <button type="button" class="btn btn-outline-light btn-md time" id="morning">Morning</button>
-            <button type="button" class="btn btn-outline-light btn-md time" id="afternoon">Afternoon</button>
-            <button type="button" class="btn btn-outline-light btn-md time" id="evening">Evening</button>
-            <button type="button" class="btn btn-outline-light btn-md time" id="dark">After Dark</button>
+ 
+            <button type="button" class="btn btn-outline-light btn-sm time" id="all">Show All</button>
+            <button type="button" class="btn btn-outline-light btn-sm time" id="morning">Morning</button>
+            <button type="button" class="btn btn-outline-light btn-sm time" id="afternoon">Afternoon</button>
+            <button type="button" class="btn btn-outline-light btn-sm time" id="evening">Evening</button>
+            <button type="button" class="btn btn-outline-light btn-sm time" id="dark">After Dark</button>
+        </div>
+    </div> -->
+    <div id="moviesWrapper">
+    <div id="movie" class="d-flex justify-content-center .flex-column flex-wrap movie-click"></div>
+    </div>
+
+    
+
+    <div id="header">
+            <h2> SHOOTING LOCATIONS </h2>
+        <!-- <img class="logo" src="./images/shots.png" alt="logo"> -->
+        <div id="searchBarWrapper">
+        <input id="searchBar" class="form-control mr-sm-2 searchBar" type="search" placeholder="Search">
         </div>
     </div>
-    <div id="moviesWrapper">
-    <div id="movie" class="d-flex justify-content-center .flex-column flex-wrap"></div>
+
+    <div class="row m-4 col-md-12 buttons">
+        <div id="buttons" class="d-flex .flex-column flex-wrap">
+            <!-- <input id="searchBar" class="form-control mr-sm-2 searchBar" type="search" placeholder="Search"> -->
+            <button type="button" class="btn btn-outline-light btn-sm time" id="all">Show All</button>
+            <button type="button" class="btn btn-outline-light btn-sm time" id="morning">Morning</button>
+            <button type="button" class="btn btn-outline-light btn-sm time" id="afternoon">Afternoon</button>
+            <button type="button" class="btn btn-outline-light btn-sm time" id="evening">Evening</button>
+            <button type="button" class="btn btn-outline-light btn-sm time" id="dark">After Dark</button>
+        </div>
     </div>
+
     <div id="locationsWrapper">
+        
         <div id="locations" class="d-flex justify-content-center .flex-column flex-wrap"></div>
     </div>
+</div>
     <!-- Javascript Tags -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>

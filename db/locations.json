@@ -41,6 +41,27 @@
             "name": "Night Cap",
             "address": "The Loft, Top Floor",
             "shootTime": "dark"
+        },
+        {
+            "id":"location7",
+            "image": "https://s3.us-east-2.amazonaws.com/tales-prod-mediabucket-1w7ck12fqo2qd/assets/images/2017/01/8A6nebrHVjJs_660x0_mtdhGWCw.jpg",
+            "name": "Night Cap",
+            "address": "The Loft, Top Floor",
+            "shootTime": "dark"
+        },
+        {
+            "id":"location8",
+            "image": "https://s3.us-east-2.amazonaws.com/tales-prod-mediabucket-1w7ck12fqo2qd/assets/images/2017/01/8A6nebrHVjJs_660x0_mtdhGWCw.jpg",
+            "name": "Night Cap",
+            "address": "The Loft, Top Floor",
+            "shootTime": "dark"
+        },
+        {
+            "id":"location9",
+            "image": "https://s3.us-east-2.amazonaws.com/tales-prod-mediabucket-1w7ck12fqo2qd/assets/images/2017/01/8A6nebrHVjJs_660x0_mtdhGWCw.jpg",
+            "name": "Night Cap",
+            "address": "The Loft, Top Floor",
+            "shootTime": "dark"
         }
     ]
 }

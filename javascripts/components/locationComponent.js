@@ -1,3 +1,5 @@
+import { locationInfo } from "../data/locationsData.js";
+// Function to write the locations to the Dom //
 const locationBuilder = (locationArray) => {
     let domString = '';
     locationArray.forEach((location) => {
@@ -13,5 +15,14 @@ const locationBuilder = (locationArray) => {
     $('#locations').append(domString);
 }
 
+// Function to display locations on load //
+const initialLocationView = () => {
+        locationInfo().then((locations) => {
+        locationBuilder(locations);
+    }).catch((error) => {
+        console.error(error)
+    });
+}
 
-export { locationBuilder };
+
+export { locationBuilder, initialLocationView };
